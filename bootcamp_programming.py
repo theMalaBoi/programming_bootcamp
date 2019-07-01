@@ -31,6 +31,6 @@ for i in range(len(integer_list)):
                     if reverse_element not in output_list:
                         output_list.append(element)
 
-print("All the even pairs in this List of integers are:")
+print("All the pairs in this List of integers are:")
 for element in output_list:
     print(f"{element[0]} , {element[1]}")
